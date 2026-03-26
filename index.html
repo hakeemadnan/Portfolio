@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adnan Mushtaq - Personal Portfolio Website">
+    <title>Adnan Mushtaq | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">AM.</a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <p class="greeting">Hi, I'm</p>
+                    <h1 class="name">Adnan Mushtaq</h1>
+                    <h2 class="tagline">Driven Computer Science Student & Data Enthusiast</h2>
+                    <p class="intro">
+                        Focusing on Data Analysis and Web Development. Passionate about leveraging data to solve complex
+                        problems and crafting efficient software solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <!-- Placeholder for CV file -->
+                        <a href="Adnan_Mushtaq_CV.pdf" target="_blank" class="btn btn-primary"><i
+                                class="fas fa-eye"></i> View CV</a>
+                        <a href="#projects" class="btn btn-outline">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-right">
+                    <div class="image-wrapper">
+                        <!-- Profile Image -->
+                        <img src="profile.jpg" alt="Adnan Mushtaq" id="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content fade-in-up">
+                    <p>
+                        I am a driven B.Tech student in Computer Science and Engineering at Lovely Professional
+                        University, specializing in Data Science and Web Development with a CGPA of 7.89.
+                    </p>
+                    <p>
+                        With a versatile skill set spanning Python, Java, and modern web technologies, I love tackling
+                        complex problems and building user-centric applications. I am constantly exploring and
+                        implementing new tools.
+                    </p>
+                    <p>
+                        I am eager to leverage my analytical thinking and leadership skills in a dynamic software
+                        engineering, web development, or data science role to build innovative technical solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section bg-light">
+            <div class="container">
+                <h2 class="section-title">My Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category fade-in-up">
+                        <div class="skill-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">C</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <!-- Technologies -->
+                    <div class="skill-category fade-in-up" style="transition-delay: 0.1s;">
+                        <div class="skill-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Technologies & Frameworks</h3>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Numpy</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                            <span class="tag">Seaborn</span>
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">EJS</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Git & GitHub</span>
+                        </div>
+                    </div>
+
+                    <!-- Core Concepts -->
+                    <div class="skill-category fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="skill-header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Core Skills</h3>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Full Stack Development</span>
+                            <span class="tag">Data Analysis (EDA)</span>
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">DSA</span>
+                            <span class="tag">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in-up">
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Sales & Customer EDA</h3>
+                            <p class="project-date">Jul 2025 - Oct 2025</p>
+                            <p class="project-desc">
+                                Conducted in-depth Exploratory Data Analysis (EDA) on 2023 Amazon sales data utilizing
+                                heatmaps and trendlines to extract purchasing patterns. Delivered strategic
+                                recommendations that identified a 15% higher repeat purchase rate in electronics and
+                                drove a 10% revenue lift through targeted discounts.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Numpy</span>
+                                <span>Seaborn/Matplotlib</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/hakeemadnan/EDA-Project/blob/main/Edaproject.ipynb"
+                                    target="_blank" rel="noopener noreferrer" class="link-btn"><i
+                                        class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="project-content">
+                            <h3 class="project-title">Python Tetris Game</h3>
+                            <p class="project-date">Oct 2024 - Dec 2024</p>
+                            <p class="project-desc">
+                                Developed a fully functional Tetris game utilizing Python, Pygame, and Object-Oriented
+                                Design principles. Implemented precise collision detection, automatic line-clearing, and
+                                a dynamic scoring system where level difficulty dynamically scales by 15% to ensure a
+                                challenging player experience.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Pygame</span>
+                                <span>OOP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/hakeemadnan/python-project/blob/main/main.py"
+                                    target="_blank" rel="noopener noreferrer" class="link-btn"><i
+                                        class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="exp-edu section bg-light">
+            <div class="container">
+                <div class="timeline-container">
+
+                    <!-- Training/Experience -->
+                    <div class="timeline-column">
+                        <h2 class="section-title">Training & Experience</h2>
+                        <div class="timeline">
+                            <div class="timeline-item fade-in-left">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">Data Structures and Algorithms</h3>
+                                    <h4 class="timeline-org">Apna College (Edtech Company)</h4>
+                                    <span class="timeline-date">Dec 2025 - Ongoing</span>
+                                    <ul class="timeline-list">
+                                        <li>Mastering Java fundamentals and OOP to establish a strong software
+                                            engineering foundation.</li>
+                                        <li>Developing and optimizing data structures (Arrays, Linked Lists, Stacks,
+                                            Queues, Trees, Graphs).</li>
+                                        <li>Applying complex algorithms (Sorting, Searching, Traversals) and building
+                                            advanced problem-solving techniques.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="section-title mt-top">Certifications</h2>
+                        <div class="certificates-list fade-in-left" style="transition-delay: 0.2s;">
+                            <div class="cert-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Generative Artificial Intelligence (AI)</strong> – Oracle <em>(Oct
+                                        2025)</em>
+                                    <br><a
+                                        href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=EF0C38C5AC94262D9568E9ECD9ED829DD725A79EB961D56490D01C893BA10CDC"
+                                        class="view-cert-link" target="_blank" rel="noopener noreferrer"
+                                        style="font-size: 0.85rem; color: var(--primary-color); display: inline-block; margin-top: 5px; text-decoration: none;"><i
+                                            class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i> View
+                                        Certificate</a>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Data Analytics Job Simulation</strong> – Forage <em>(Sep 2025)</em>
+                                    <br><a
+                                        href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_WWnzPshB8Nrxk8mSw_1758969576513_completion_certificate.pdf"
+                                        class="view-cert-link" target="_blank" rel="noopener noreferrer"
+                                        style="font-size: 0.85rem; color: var(--primary-color); display: inline-block; margin-top: 5px; text-decoration: none;"><i
+                                            class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i> View
+                                        Certificate</a>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Postman API Fundamentals Student Expert</strong> – Postman <em>(Nov
+                                        2024)</em>
+                                    <br><a href="https://drive.google.com/file/d/1pWgyg4Ko4su3jLUyKHkhyzmON5C1bZJa/view"
+                                        class="view-cert-link" target="_blank" rel="noopener noreferrer"
+                                        style="font-size: 0.85rem; color: var(--primary-color); display: inline-block; margin-top: 5px; text-decoration: none;"><i
+                                            class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i> View
+                                        Certificate</a>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Deep Learning</strong> – GDSC <em>(Jul 2024)</em>
+                                    <br><a
+                                        href="https://drive.google.com/file/d/17sICi_J1S_ROqFr-VsyECYK46MHXb750/view?usp=sharing"
+                                        class="view-cert-link" target="_blank" rel="noopener noreferrer"
+                                        style="font-size: 0.85rem; color: var(--primary-color); display: inline-block; margin-top: 5px; text-decoration: none;"><i
+                                            class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i> View
+                                        Certificate</a>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Mastering C++</strong> – LPU <em>(Jul 2024)</em>
+                                    <br><a href="https://drive.google.com/file/d/1QJmG3rIMjPYmNMIAk5jjDC2LJIZnnBqv/view"
+                                        class="view-cert-link" target="_blank" rel="noopener noreferrer"
+                                        style="font-size: 0.85rem; color: var(--primary-color); display: inline-block; margin-top: 5px; text-decoration: none;"><i
+                                            class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i> View
+                                        Certificate</a>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <strong>Python Programming</strong> – iHUB DivyaSampark: IIT Roorkee <em>(Sept
+                                        2024)</em>
+                                    <br><a
+                                        href="https://drive.google.com/file/d/1iMgUbB4sxL0EV_foJo0ee9an7RYoL_fH/view?usp=sharing"
+                                        class="view-cert-link" target="_blank" rel="noopener noreferrer"
+                                        style="font-size: 0.85rem; color: var(--primary-color); display: inline-block; margin-top: 5px; text-decoration: none;"><i
+                                            class="fas fa-external-link-alt" style="font-size: 0.75rem;"></i> View
+                                        Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="timeline-column">
+                        <h2 class="section-title">Education</h2>
+                        <div class="timeline">
+                            <div class="timeline-item fade-in-right">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">B.Tech - Computer Science & Eng.</h3>
+                                    <h4 class="timeline-org">Lovely Professional University, Jalandhar</h4>
+                                    <span class="timeline-date">2023 - 2026</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item fade-in-right" style="transition-delay: 0.1s;">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">12th Standard - Science</h3>
+                                    <h4 class="timeline-org">Saint Joseph School, Baramulla</h4>
+                                    <span class="timeline-date">2021 - 2022</span>
+                                    <p>Percentage: 77.6%</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item fade-in-right" style="transition-delay: 0.2s;">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">10th Standard - Science</h3>
+                                    <h4 class="timeline-org">Scholars School, Srinagar</h4>
+                                    <span class="timeline-date">2019 - 2020</span>
+                                    <p>Percentage: 80.8%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container text-center">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-card fade-in-up" style="margin-bottom: 3rem;">
+                    <p class="contact-desc" style="margin-bottom: 0;">
+                        I am currently open for opportunities in Data Science and Web Development.<br>
+                        Whether you have a question or just want to say hi, my inbox is always open!
+                    </p>
+                </div>
+                <div class="contact-cards fade-in-up" style="transition-delay: 0.1s;">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hakeemadnan86@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-icon-card">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <h4 class="card-title">Email</h4>
+                        <span class="card-text">hakeemadnan86@gmail.com</span>
+                    </a>
+                    <a href="tel:6006652691" class="contact-icon-card">
+                        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+                        <h4 class="card-title">Phone</h4>
+                        <span class="card-text">+91 6006652691</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hakeemadnan" target="_blank" aria-label="LinkedIn" class="contact-icon-card">
+                        <div class="icon-circle"><i class="fab fa-linkedin-in"></i></div>
+                        <h4 class="card-title">LinkedIn</h4>
+                        <span class="card-text">linkedin.com/in/hakeemadnan</span>
+                    </a>
+                    <a href="https://github.com/hakeemadnan/" target="_blank" aria-label="GitHub" class="contact-icon-card">
+                        <div class="icon-circle"><i class="fab fa-github"></i></div>
+                        <h4 class="card-title">GitHub</h4>
+                        <span class="card-text">github.com/hakeemadnan</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Adnan Mushtaq. All rights reserved.</p>
+            <p class="built-with">Built with HTML, CSS, and JS</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
